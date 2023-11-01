@@ -1,0 +1,108 @@
+body {
+  background-color: #E3E7D3;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h3 {
+  color: #25291C;
+  font-family:'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  color:#989C94;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: #25291C;
+}
+
+button {
+  color: white;
+  background-color: red;
+  border: none;
+  padding:5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #AA3939;
+}
+
+img {
+  height: 200px;
+  width:200px;
+  transition: 1s ease;
+}
+
+img:hover {
+  height: 225px;
+  width: 225px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  width: 500px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  display: block;
+  align-items: center;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card p {
+  width: 250px;
+  margin: 10px auto;
+  margin-top: 15px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
